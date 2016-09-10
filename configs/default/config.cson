@@ -1,13 +1,24 @@
-title: "Default Configuration"
+title: "Basic Configuration"
 type: "object"
 properties:
   options:
     title: "Options"
     type: "object"
     properties:
-      example:
-        title: "Example String"
+      port:
+        title: "Serial Port"
         type: "string"
+        default: "/dev/ttyACM0"
     required: [
-      "example"
+      "port"
     ]
+  desiredState:
+    title: "Desired State"
+    type: "object"
+    properties:
+      leds:
+        title: "leds"
+        type: "array"
+        items:
+          title: 'Color'
+          type: 'string'

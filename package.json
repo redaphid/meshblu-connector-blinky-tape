@@ -28,9 +28,11 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "blinky-tape": "^1.2.0",
     "coffee-script": "^1.10.0",
     "debug": "^2.2.0",
     "fs-cson": "^0.3.2",
+    "lodash": "^4.15.0",
     "meshblu-config": "^4.0.0",
     "meshblu-connector-runner": "^9.1.2",
     "meshblu-connector-schema-generator": "^2.1.0"
